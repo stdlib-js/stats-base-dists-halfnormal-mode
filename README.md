@@ -67,7 +67,7 @@ The [mode][mode] for a [half-normal][half-normal-distribution] random variable w
 ## Usage
 
 ```javascript
-import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-halfnormal-mode@esm/index.mjs';
+import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-halfnormal-mode@v0.1.1-esm/index.mjs';
 ```
 
 #### mode( sigma )
@@ -127,7 +127,7 @@ y = mode( -1.0 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-halfnormal-mode@esm/index.mjs';
+import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-halfnormal-mode@v0.1.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
